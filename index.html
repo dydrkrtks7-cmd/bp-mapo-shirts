@@ -1,410 +1,106 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 셔츠룸 추천 | 마포 셔츠룸</title>
-    <meta name="description" content="마포 셔츠룸 추천 정보를 한곳에 모았습니다. 마포 셔츠룸 가격대 추천, 후기 많은 곳, 시스템 좋은 곳, 1인 비용, 가성비 추천, 예약 방법, 초보자 가이드, 위치 좋은 곳, 단체 모임, 할인 이벤트까지 확인하세요.">
-    <meta name="keywords" content="마포 셔츠룸 추천, 마포 셔츠룸 가격대 추천, 마포 셔츠룸 후기 많은 곳, 마포 셔츠룸 시스템 좋은 곳, 마포 셔츠룸 1인 비용, 마포 셔츠룸 가성비 추천, 마포 셔츠룸 예약 방법, 마포 셔츠룸 초보자 가이드, 마포 셔츠룸 위치 좋은 곳, 마포 셔츠룸 단체 모임 추천, 마포 셔츠룸 할인 이벤트">
-    <link rel="canonical" href="https://www.example.com/mapo-shirts-room">
-    <meta property="og:title" content="마포 셔츠룸 추천 | 마포 셔츠룸">
-    <meta property="og:description" content="마포 셔츠룸 추천, 가격대, 후기, 시스템, 예약까지 한눈에 비교하세요.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.example.com/mapo-shirts-room">
-    <meta property="og:image" content="https://www.example.com/og-image.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="마포 셔츠룸 추천 | 마포 셔츠룸">
-    <meta name="twitter:description" content="마포 셔츠룸 추천, 가격대, 후기, 시스템, 예약까지 한눈에 비교하세요.">
-    <meta name="twitter:image" content="https://www.example.com/og-image.jpg">
-    <style>
-        @font-face {
-            font-family: 'Pretendard';
-            src: url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css') format('woff2');
-            font-display: swap;
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Pretendard', sans-serif;
-            background: #f8fafc;
-            color: #1e293b;
-            line-height: 1.7;
-        }
-        .cx-ico-rxi1 {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        header {
-            background: #4f46e5;
-            padding: 16px 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 4px 12px rgba(79,70,229,0.2);
-        }
-        .sf-head-9hc5-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .bx-list-9b9y {
-            font-size: 1.6rem;
-            font-weight: 800;
-            color: #fff;
-            letter-spacing: -0.5px;
-        }
-        .bx-list-9b9y span {
-            color: #c7d2fe;
-        }
-        nav {
-            display: flex;
-            gap: 32px;
-        }
-        nav a {
-            color: #e0e7ff;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: color 0.2s;
-        }
-        nav a:hover {
-            color: #fff;
-        }
-        .ui-main-4k7x {
-            display: none;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 8px;
-        }
-        .ui-main-4k7x span {
-            display: block;
-            width: 28px;
-            height: 3px;
-            background: #fff;
-            margin: 5px 0;
-            border-radius: 3px;
-            transition: 0.3s;
-        }
-        @media (max-width: 768px) {
-            .ui-main-4k7x {
-                display: block;
-            }
-            nav {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 64px;
-                left: 0;
-                right: 0;
-                background: #4338ca;
-                padding: 20px;
-                gap: 16px;
-                box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-            }
-            nav.cx-txt-62ai-open {
-                display: flex;
-            }
-            nav a {
-                font-size: 1.1rem;
-            }
-        }
-        .bx-nav-mdvq {
-            background: linear-gradient(135deg, #4f46e5 0%, #818cf8 50%, #4338ca 100%);
-            padding: 80px 0 100px;
-            position: relative;
-            overflow: hidden;
-        }
-        .bx-nav-mdvq::after {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            width: 100%;
-            height: 80px;
-            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 80'%3E%3Cpath fill='%23f8fafc' d='M0,40 C300,80 600,0 1200,40 L1200,80 L0,80 Z'/%3E%3C/svg%3E") no-repeat bottom;
-            background-size: cover;
-        }
-        .bx-nav-mdvq-content {
-            text-align: center;
-            color: #fff;
-            position: relative;
-            z-index: 2;
-        }
-        .bx-nav-mdvq-content h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            margin-bottom: 20px;
-            letter-spacing: -1px;
-        }
-        .bx-nav-mdvq-content p {
-            font-size: 1.2rem;
-            opacity: 0.95;
-            max-width: 600px;
-            margin: 0 auto 28px;
-        }
-        .bx-nav-mdvq-btn {
-            display: inline-block;
-            background: #fff;
-            color: #4f46e5;
-            font-weight: 700;
-            padding: 14px 40px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-size: 1.1rem;
-            transition: transform 0.2s, box-shadow 0.2s;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-        }
-        .bx-nav-mdvq-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 28px rgba(0,0,0,0.25);
-        }
-        .cx-ico-8gwd {
-            padding: 64px 0;
-        }
-        .cx-ico-8gwd-title {
-            font-size: 2rem;
-            font-weight: 700;
-            color: #1e293b;
-            margin-bottom: 12px;
-            position: relative;
-            display: inline-block;
-        }
-        .cx-ico-8gwd-title::after {
-            content: '';
-            display: block;
-            width: 50%;
-            height: 4px;
-            background: #818cf8;
-            border-radius: 4px;
-            margin-top: 8px;
-        }
-        .pg-item-1ofo-3 {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 28px;
-            margin-top: 36px;
-        }
-        .pg-item-1ofo-2 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 28px;
-            margin-top: 36px;
-        }
-        .cx-foot-pq1s {
-            background: #fff;
-            border-radius: 20px;
-            padding: 32px 24px;
-            box-shadow: 0 8px 24px rgba(79,70,229,0.08);
-            transition: transform 0.25s, box-shadow 0.25s;
-            border: 1px solid #eef2ff;
-        }
-        .cx-foot-pq1s:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 16px 40px rgba(79,70,229,0.12);
-        }
-        .cx-foot-pq1s-icon {
-            font-size: 2.8rem;
-            margin-bottom: 16px;
-            display: block;
-        }
-        .cx-foot-pq1s h3 {
-            font-size: 1.3rem;
-            font-weight: 700;
-            margin-bottom: 12px;
-            color: #1e293b;
-        }
-        .cx-foot-pq1s p {
-            color: #475569;
-            font-size: 0.95rem;
-        }
-        .bx-list-br33-list {
-            list-style: none;
-            margin-top: 20px;
-        }
-        .bx-list-br33-list li {
-            padding: 12px 0;
-            border-bottom: 1px solid #eef2ff;
-            display: flex;
-            justify-content: space-between;
-            font-size: 1rem;
-        }
-        .bx-list-br33-list li:last-child {
-            border-bottom: none;
-        }
-        .bx-box-yt73 {
-            background: #eef2ff;
-            color: #4f46e5;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 0.85rem;
-        }
-        .sf-box-5151-item {
-            background: #fff;
-            border-radius: 16px;
-            padding: 24px 28px;
-            margin-bottom: 16px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-            border-left: 4px solid #818cf8;
-        }
-        .sf-box-5151-item h3 {
-            font-size: 1.15rem;
-            font-weight: 700;
-            margin-bottom: 8px;
-            color: #1e293b;
-        }
-        .sf-box-5151-item p {
-            color: #475569;
-        }
-        .pg-grid-vv8k {
-            background: linear-gradient(135deg, #4f46e5, #4338ca);
-            padding: 60px 0;
-            text-align: center;
-            color: #fff;
-            border-radius: 32px;
-            margin: 40px 0;
-        }
-        .pg-grid-vv8k h2 {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 16px;
-        }
-        .pg-grid-vv8k p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-            margin-bottom: 24px;
-        }
-        .pg-grid-vv8k a {
-            display: inline-block;
-            background: #fff;
-            color: #4f46e5;
-            font-weight: 700;
-            padding: 14px 48px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-size: 1.1rem;
-            transition: transform 0.2s;
-        }
-        .pg-grid-vv8k a:hover {
-            transform: scale(1.05);
-        }
-        .sf-foot-5o67-area {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 24px;
-            margin-top: 36px;
-        }
-        .sf-foot-5o67-card {
-            background: #fff;
-            border-radius: 20px;
-            padding: 24px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-            text-align: center;
-        }
-        .sf-foot-5o67-card h3 {
-            font-size: 1.2rem;
-            font-weight: 700;
-            margin-bottom: 12px;
-        }
-        .sf-foot-5o67-card a {
-            color: #4f46e5;
-            font-weight: 600;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 12px;
-            padding: 10px 28px;
-            border: 2px solid #4f46e5;
-            border-radius: 30px;
-            transition: 0.2s;
-        }
-        .sf-foot-5o67-card a:hover {
-            background: #4f46e5;
-            color: #fff;
-        }
-        footer {
-            background: #1e293b;
-            color: #cbd5e1;
-            padding: 40px 0 28px;
-            margin-top: 64px;
-        }
-        .bx-box-wt74-inner {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .bx-box-wt74-info h4 {
-            color: #fff;
-            font-size: 1.2rem;
-            margin-bottom: 8px;
-        }
-        .bx-box-wt74-info p {
-            font-size: 0.9rem;
-            margin-bottom: 4px;
-        }
-        .bx-box-wt74-info a {
-            color: #818cf8;
-            text-decoration: none;
-        }
-        .sf-box-u5bj {
-            text-align: center;
-            margin-top: 32px;
-            padding-top: 20px;
-            border-top: 1px solid #334155;
-            font-size: 0.85rem;
-        }
-        @media (max-width: 768px) {
-            .pg-item-1ofo-3, .pg-item-1ofo-2, .sf-foot-5o67-area {
-                grid-template-columns: 1fr;
-            }
-            .bx-nav-mdvq-content h1 {
-                font-size: 2rem;
-            }
-            .cx-ico-8gwd-title {
-                font-size: 1.6rem;
-            }
-        }
-        .bx-main-fvqu {
-            width: 100%;
-            height: 60px;
-            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 60'%3E%3Cpath fill='%23eef2ff' d='M0,30 C300,60 600,0 1200,30 L1200,60 L0,60 Z'/%3E%3C/svg%3E") no-repeat bottom;
-            background-size: cover;
-            margin: 20px 0;
-        }
-        img[alt] {
-            display: none;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마포 셔츠룸 추천 | 마포 셔츠룸</title>
+<meta name="description" content="마포 셔츠룸 추천 정보를 한곳에 모았습니다. 마포 셔츠룸 가격 비교, 후기 많은 곳, 예약 방법, 시스템 좋은 곳까지 상세히 알려드립니다.">
+<meta name="keywords" content="마포 셔츠룸 추천, 마포 셔츠룸, 마포 셔츠룸 가격 비교 추천, 마포구 셔츠룸 후기 많은 곳 추천, 마포 셔츠룸 예약 방법 및 추천, 마포 셔츠룸 시스템 좋은 곳 추천, 마포 셔츠룸 초행자 추천 업소, 마포역 근처 셔츠룸 추천, 마포 셔츠룸 1인 이용 추천, 마포 셔츠룸 여성 직원 추천, 마포 셔츠룸 단체 추천 코스, 마포 셔츠룸 가성비 좋은 곳 추천">
+<link rel="canonical" href="https://www.example.com/mapo-shirtsroom">
+<meta property="og:title" content="마포 셔츠룸 추천 | 마포 셔츠룸">
+<meta property="og:description" content="마포 셔츠룸 추천 정보를 한곳에 모았습니다. 마포 셔츠룸 가격 비교, 후기 많은 곳, 예약 방법, 시스템 좋은 곳까지 상세히 알려드립니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.example.com/mapo-shirtsroom">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="마포 셔츠룸 추천 | 마포 셔츠룸">
+<meta name="twitter:description" content="마포 셔츠룸 추천 정보를 한곳에 모았습니다. 마포 셔츠룸 가격 비교, 후기 많은 곳, 예약 방법, 시스템 좋은 곳까지 상세히 알려드립니다.">
+<style>
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Pretendard', sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.7; }
+.sf-side-npcz { background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%); color: white; padding: 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 4px 20px rgba(79,70,229,0.3); }
+.pg-foot-rvmf { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; }
+.sf-foot-hwjm { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.5px; }
+.sf-foot-hwjm span { color: #c7d2fe; }
+.pg-foot-rvmf-links { display: flex; gap: 32px; list-style: none; }
+.pg-foot-rvmf-links a { color: white; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: opacity 0.2s; }
+.pg-foot-rvmf-links a:hover { opacity: 0.8; }
+.el-hero-um2s { display: none; flex-direction: column; cursor: pointer; gap: 5px; background: none; border: none; padding: 4px; }
+.el-hero-um2s span { width: 28px; height: 3px; background: white; border-radius: 2px; transition: 0.3s; }
+.ui-wrap-lmm3 { background: linear-gradient(135deg, #4f46e5 0%, #818cf8 50%, #4338ca 100%); color: white; padding: 80px 24px 100px; text-align: center; position: relative; overflow: hidden; }
+.ui-wrap-lmm3::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C300,100 700,100 1200,0 L1200,120 L0,120 Z' fill='%23f8fafc'/%3E%3C/svg%3E") no-repeat bottom; background-size: cover; }
+.ui-wrap-lmm3 h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 16px; letter-spacing: -1px; }
+.ui-wrap-lmm3 p { font-size: 1.15rem; opacity: 0.9; max-width: 700px; margin: 0 auto 28px; }
+.ui-wrap-lmm3-cta { display: inline-block; background: white; color: #4f46e5; padding: 14px 40px; border-radius: 50px; font-weight: 700; text-decoration: none; font-size: 1.05rem; transition: transform 0.2s, box-shadow 0.2s; box-shadow: 0 4px 15px rgba(0,0,0,0.15); }
+.ui-wrap-lmm3-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.2); }
+.el-body-9bcz { max-width: 1200px; margin: 0 auto; padding: 64px 24px; }
+.el-body-9bcz-title { font-size: 2rem; font-weight: 700; color: #1e293b; margin-bottom: 12px; letter-spacing: -0.5px; }
+.el-body-9bcz-sub { color: #64748b; margin-bottom: 40px; font-size: 1.05rem; }
+.bx-img-m45j-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.bx-img-m45j-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
+.bx-foot-1u4q { background: white; border-radius: 20px; padding: 32px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid #e2e8f0; }
+.bx-foot-1u4q:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(79,70,229,0.1); }
+.bx-foot-1u4q-icon { font-size: 2.8rem; margin-bottom: 16px; display: block; }
+.bx-foot-1u4q h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; color: #1e293b; }
+.bx-foot-1u4q p { color: #475569; font-size: 0.95rem; }
+.cx-btn-r990-list { list-style: none; margin-top: 16px; }
+.cx-btn-r990-list li { padding: 8px 0; border-bottom: 1px solid #f1f5f9; display: flex; align-items: center; gap: 10px; }
+.cx-btn-r990-list li::before { content: '✓'; color: #4f46e5; font-weight: 700; }
+.pg-nav-qd46-table { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); border: 1px solid #e2e8f0; }
+.pg-nav-qd46-row { display: flex; justify-content: space-between; padding: 18px 28px; border-bottom: 1px solid #f1f5f9; }
+.pg-nav-qd46-row:last-child { border-bottom: none; }
+.pg-nav-qd46-label { font-weight: 500; color: #334155; }
+.pg-nav-qd46-value { font-weight: 700; color: #4f46e5; }
+.el-side-6w27-box { background: #f1f5f9; border-radius: 16px; padding: 24px; margin-bottom: 16px; }
+.el-side-6w27-box p { font-style: italic; color: #475569; }
+.el-side-6w27-box .el-side-6w27-author { font-style: normal; font-weight: 600; color: #1e293b; margin-top: 8px; }
+.bx-box-71wk-item { background: white; border-radius: 16px; padding: 24px 28px; margin-bottom: 12px; border: 1px solid #e2e8f0; }
+.bx-box-71wk-item h3 { font-size: 1.05rem; font-weight: 700; color: #1e293b; margin-bottom: 8px; cursor: pointer; }
+.bx-box-71wk-item p { color: #475569; }
+.cx-txt-y4f4 { width: 100%; height: 60px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 60' preserveAspectRatio='none'%3E%3Cpath d='M0,30 C300,0 700,60 1200,30 L1200,60 L0,60 Z' fill='%23eef2ff'/%3E%3C/svg%3E") no-repeat; background-size: cover; }
+.sf-grid-dq7x-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 20px; }
+.sf-grid-dq7x-links a { display: inline-flex; align-items: center; gap: 8px; background: white; padding: 14px 28px; border-radius: 12px; text-decoration: none; font-weight: 600; color: #1e293b; border: 1px solid #e2e8f0; transition: all 0.2s; }
+.sf-grid-dq7x-links a:hover { background: #4f46e5; color: white; border-color: #4f46e5; }
+.pg-item-wee1 { background: #1e293b; color: #cbd5e1; padding: 48px 24px; text-align: center; }
+.pg-item-wee1-inner { max-width: 1200px; margin: 0 auto; }
+.pg-item-wee1 h4 { color: white; font-size: 1.2rem; margin-bottom: 8px; }
+.pg-item-wee1 p { margin-bottom: 4px; font-size: 0.9rem; }
+.pg-item-wee1 a { color: #818cf8; text-decoration: none; }
+.pg-item-wee1 .el-main-uz9n { margin-top: 24px; padding-top: 24px; border-top: 1px solid #334155; font-size: 0.85rem; }
+@media (max-width: 768px) {
+.pg-foot-rvmf-links { display: none; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: #4f46e5; padding: 20px; gap: 16px; border-radius: 0 0 16px 16px; }
+.pg-foot-rvmf-links.active { display: flex; }
+.el-hero-um2s { display: flex; }
+.ui-wrap-lmm3 h1 { font-size: 1.8rem; }
+.bx-img-m45j-2, .bx-img-m45j-3 { grid-template-columns: 1fr; }
+.el-body-9bcz { padding: 40px 20px; }
+.pg-nav-qd46-row { flex-direction: column; gap: 4px; }
+}
+</style>
 </head>
 <body>
-    <header>
-        <div class="cx-ico-rxi1 sf-head-9hc5-inner">
-            <div class="bx-list-9b9y">마포<span>셔츠룸</span></div>
-            <button class="ui-main-4k7x" aria-label="메뉴 열기" onclick="document.querySelector('nav').classList.toggle('cx-txt-62ai-open')">
-                <span></span><span></span><span></span>
-            </button>
-            <nav>
-                <a href="#features">소개</a>
-                <a href="#pricing">가격</a>
-                <a href="#reviews">후기</a>
-                <a href="#faq">FAQ</a>
-                <a href="#contact">문의</a>
-            </nav>
-        </div>
-    </header>
 
-    <section class="bx-nav-mdvq">
-        <div class="cx-ico-rxi1 bx-nav-mdvq-content">
-            <h1>마포 셔츠룸 추천</h1>
-            <p>마포에서 가장 합리적인 가격, 깔끔한 시스템, 생생한 후기까지. 당신에게 딱 맞는 셔츠룸을 지금 바로 찾아보세요.</p>
-            <a href="#pricing" class="bx-nav-mdvq-btn">가격대 보기</a>
-        </div>
-    </section>
+<header class="sf-side-npcz">
+  <nav class="pg-foot-rvmf">
+    <div class="sf-foot-hwjm">👔 <span>마포</span> 셔츠룸</div>
+    <ul class="pg-foot-rvmf-links" id="random-nav-menu">
+      <li><a href="#intro">소개</a></li>
+      <li><a href="#service">서비스</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">문의</a></li>
+    </ul>
+    <button class="el-hero-um2s" id="random-hamburger" aria-label="메뉴 열기">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<section class="ui-wrap-lmm3">
+  <h1>마포 셔츠룸 추천</h1>
+  <p>마포에서 가장 신뢰할 수 있는 셔츠룸 정보를 모았습니다. 가격, 시스템, 후기까지 꼼꼼하게 비교해 드립니다.</p>
+  <a href="tel:010-0000-0000" class="ui-wrap-lmm3-cta">📞 전화 문의</a>
+</section>
 
 <!-- SEO Visual 2: 셔츠룸 サービスカード -->
 <div class="seo-visual-cards" role="img" aria-label="마포 셔츠룸 추천の셔츠룸 — 信頼のサービス" 
@@ -424,249 +120,250 @@
   </div>
 </div>
 
-    <section class="cx-ico-8gwd" id="features">
-        <div class="cx-ico-rxi1">
-            <h2 class="cx-ico-8gwd-title">마포 셔츠룸 특징 한눈에</h2>
-            <div class="pg-item-1ofo-3">
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">💎</span>
-                    <h3>마포 셔츠룸 가격대 추천</h3>
-                    <p>마포 셔츠룸 가격대 추천 정보를 바탕으로 예산에 맞는 업소를 골라보세요. 시간대별, 인원별 비용이 투명하게 공개됩니다.</p>
-                </div>
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">⭐</span>
-                    <h3>마포 셔츠룸 후기 많은 곳</h3>
-                    <p>마포 셔츠룸 후기 많은 곳을 선별해 실제 방문자들의 생생한 평가를 제공합니다. 서비스, 청결, 친절도를 한눈에 비교하세요.</p>
-                </div>
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">⚙️</span>
-                    <h3>마포 셔츠룸 시스템 좋은 곳</h3>
-                    <p>마포 셔츠룸 시스템 좋은 곳은 예약부터 퇴장까지 매끄럽습니다. 음향, 조명, 룸 컨디션까지 꼼꼼히 체크해드립니다.</p>
-                </div>
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">👤</span>
-                    <h3>마포 셔츠룸 1인 비용</h3>
-                    <p>마포 셔츠룸 1인 비용이 궁금하다면? 1인 이용 시 추가 금액, 할인 조건, 패키지 옵션을 상세히 안내합니다.</p>
-                </div>
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">💰</span>
-                    <h3>마포 셔츠룸 가성비 추천</h3>
-                    <p>마포 셔츠룸 가성비 추천 리스트를 통해 합리적인 가격에 퀄리티 높은 서비스를 누려보세요. 숨은 맛집 같은 업소를 소개합니다.</p>
-                </div>
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">📍</span>
-                    <h3>마포 셔츠룸 위치 좋은 곳</h3>
-                    <p>마포 셔츠룸 위치 좋은 곳은 교통이 편리하고 주변 편의시설이 잘 갖춰져 있습니다. 역세권, 주차 가능 여부까지 확인하세요.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="el-body-9bcz" id="intro">
+  <h2 class="el-body-9bcz-title">마포 셔츠룸, 왜 주목받을까</h2>
+  <p class="el-body-9bcz-sub">마포구 일대는 교통이 편리하고 다양한 유흥 시설이 밀집해 있습니다. 특히 마포 셔츠룸 추천 업소들은 합리적인 가격과 체계적인 시스템으로 초행자부터 단체 손님까지 폭넓게 만족시키고 있습니다.</p>
+  <div class="bx-img-m45j-2">
+    <div class="bx-foot-1u4q">
+      <span class="bx-foot-1u4q-icon">📍</span>
+      <h3>마포역 근처 셔츠룸 추천</h3>
+      <p>마포역 도보 5분 거리에 위치한 업소들은 접근성이 뛰어납니다. 퇴근길에 부담 없이 들르기 좋은 환경을 갖추고 있습니다.</p>
+    </div>
+    <div class="bx-foot-1u4q">
+      <span class="bx-foot-1u4q-icon">💡</span>
+      <h3>마포 셔츠룸 시스템 좋은 곳 추천</h3>
+      <p>예약부터 입장까지 원스톱으로 진행되는 시스템을 도입한 곳이 늘고 있습니다. 디지털 예약과 빠른 응대가 장점입니다.</p>
+    </div>
+  </div>
+</section>
 
-    <div class="bx-main-fvqu"></div>
+<div class="cx-txt-y4f4"></div>
 
-    <section class="cx-ico-8gwd" id="pricing">
-        <div class="cx-ico-rxi1">
-            <h2 class="cx-ico-8gwd-title">마포 셔츠룸 가격 & 예약</h2>
-            <div class="pg-item-1ofo-2">
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">📋</span>
-                    <h3>마포 셔츠룸 예약 방법</h3>
-                    <p>마포 셔츠룸 예약 방법은 간단합니다. 전화 한 통 또는 온라인 예약 시스템으로 원하는 시간대를 확보하세요. 초보자도 쉽게 따라할 수 있는 가이드를 제공합니다.</p>
-                    <ul class="bx-list-br33-list">
-                        <li><span>전화 예약</span><span class="bx-box-yt73">24시간</span></li>
-                        <li><span>온라인 예약</span><span class="bx-box-yt73">실시간</span></li>
-                        <li><span>방문 예약</span><span class="bx-box-yt73">현장</span></li>
-                    </ul>
-                </div>
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">🎉</span>
-                    <h3>마포 셔츠룸 할인 이벤트</h3>
-                    <p>마포 셔츠룸 할인 이벤트 정보를 놓치지 마세요. 첫 방문 할인, 단체 할인, 야간 패키지 등 다양한 혜택이 준비되어 있습니다.</p>
-                    <ul class="bx-list-br33-list">
-                        <li><span>첫 방문 20% 할인</span><span class="bx-box-yt73">진행중</span></li>
-                        <li><span>3인 이상 단체 할인</span><span class="bx-box-yt73">~10%</span></li>
-                        <li><span>심야 패키지</span><span class="bx-box-yt73">30%</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div style="margin-top:28px; background:#eef2ff; border-radius:20px; padding:24px;">
-                <h3 style="color:#4f46e5; margin-bottom:12px;">마포 셔츠룸 초보자 가이드</h3>
-                <p>마포 셔츠룸 초보자 가이드를 통해 처음 방문하는 분들도 부담 없이 이용할 수 있습니다. 룸 시스템, 음료 서비스, 이용 시간, 에티켓까지 상세히 알려드립니다. 마포 셔츠룸 단체 모임 추천 장소는 넉넉한 룸과 다양한 부대시설을 갖추고 있어 회식, 친구 모임에 안성맞춤입니다.</p>
-            </div>
-        </div>
-    </section>
+<section class="el-body-9bcz" id="service">
+  <h2 class="el-body-9bcz-title">마포 셔츠룸 가격 비교 추천</h2>
+  <p class="el-body-9bcz-sub">업소별 코스와 가격을 한눈에 비교해 보세요. 마포 셔츠룸 가성비 좋은 곳 추천 정보도 함께 제공합니다.</p>
+  <div class="pg-nav-qd46-table">
+    <div class="pg-nav-qd46-row"><span class="pg-nav-qd46-label">기본 코스 (1시간)</span><span class="pg-nav-qd46-value">10만원 ~ 15만원</span></div>
+    <div class="pg-nav-qd46-row"><span class="pg-nav-qd46-label">스탠다드 코스 (1.5시간)</span><span class="pg-nav-qd46-value">15만원 ~ 22만원</span></div>
+    <div class="pg-nav-qd46-row"><span class="pg-nav-qd46-label">프리미엄 코스 (2시간)</span><span class="pg-nav-qd46-value">22만원 ~ 30만원</span></div>
+    <div class="pg-nav-qd46-row"><span class="pg-nav-qd46-label">단체 코스 (4인 기준)</span><span class="pg-nav-qd46-value">40만원 ~ 60만원</span></div>
+  </div>
+  <div style="margin-top: 32px;">
+    <h3 style="font-size:1.2rem; font-weight:700; margin-bottom:12px;">마포구 셔츠룸 후기 많은 곳 추천 포인트</h3>
+    <div class="bx-img-m45j-3">
+      <div class="bx-foot-1u4q">
+        <span class="bx-foot-1u4q-icon">⭐</span>
+        <h3>후기 많은 업소</h3>
+        <p>실제 방문 후기가 100건 이상인 곳은 신뢰도가 높습니다. 마포구 셔츠룸 후기 많은 곳 추천 리스트를 참고하세요.</p>
+      </div>
+      <div class="bx-foot-1u4q">
+        <span class="bx-foot-1u4q-icon">👤</span>
+        <h3>1인 이용 추천</h3>
+        <p>마포 셔츠룸 1인 이용 추천 업소는 혼자서도 부담 없는 시스템을 갖췄습니다. 개인 라운지 운영 여부를 확인하세요.</p>
+      </div>
+      <div class="bx-foot-1u4q">
+        <span class="bx-foot-1u4q-icon">👥</span>
+        <h3>단체 추천 코스</h3>
+        <p>마포 셔츠룸 단체 추천 코스는 4인 이상 할인 혜택이 있습니다. 회식이나 모임에 적합합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="cx-ico-8gwd" id="reviews">
-        <div class="cx-ico-rxi1">
-            <h2 class="cx-ico-8gwd-title">마포 셔츠룸 후기 & 만족도</h2>
-            <div class="pg-item-1ofo-3">
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">🗣️</span>
-                    <h3>마포 셔츠룸 후기 많은 곳</h3>
-                    <p>실제 방문자들이 남긴 마포 셔츠룸 후기 많은 곳을 모아봤습니다. 서비스, 청결, 분위기별 만족도가 높은 업소를 추천합니다.</p>
-                </div>
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">👥</span>
-                    <h3>마포 셔츠룸 단체 모임 추천</h3>
-                    <p>단체 모임에 적합한 마포 셔츠룸 단체 모임 추천 리스트입니다. 넓은 룸, 노래방 시스템, 간편한 예약이 장점입니다.</p>
-                </div>
-                <div class="cx-foot-pq1s">
-                    <span class="cx-foot-pq1s-icon">📝</span>
-                    <h3>마포 셔츠룸 시스템 좋은 곳</h3>
-                    <p>시스템이 잘 갖춰진 마포 셔츠룸 시스템 좋은 곳은 예약, 입장, 정산까지 원스톱으로 처리됩니다. 디지털 키오스크와 친절한 직원이 돋보입니다.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="cx-txt-y4f4"></div>
 
-    <section class="cx-ico-8gwd" id="faq">
-        <div class="cx-ico-rxi1">
-            <h2 class="cx-ico-8gwd-title">자주 묻는 질문 (FAQ)</h2>
-            <div class="sf-box-5151-item">
-                <h3>마포 셔츠룸 1인 비용은 얼마인가요?</h3>
-                <p>마포 셔츠룸 1인 비용은 보통 5만 원에서 10만 원 사이이며, 시간대와 패키지에 따라 차이가 있습니다. 야간 시간대는 할인 적용되는 곳이 많으니 예약 시 문의하세요.</p>
-            </div>
-            <div class="sf-box-5151-item">
-                <h3>마포 셔츠룸 예약 방법이 궁금해요.</h3>
-                <p>마포 셔츠룸 예약 방법은 대부분 전화 예약을 기본으로 하며, 일부 업소는 카카오톡이나 온라인 예약 시스템을 운영합니다. 원하는 날짜와 인원을 미리 알려주면 빠르게 진행됩니다.</p>
-            </div>
-            <div class="sf-box-5151-item">
-                <h3>마포 셔츠룸 할인 이벤트는 자주 하나요?</h3>
-                <p>마포 셔츠룸 할인 이벤트는 신규 오픈, 시즌, 연말 등 주기적으로 진행됩니다. 평일 방문 시 추가 할인 혜택이 있는 곳이 많으니 확인 후 방문하세요.</p>
-            </div>
-        </div>
-    </section>
+<section class="el-body-9bcz">
+  <h2 class="el-body-9bcz-title">마포 셔츠룸 예약 방법 및 추천</h2>
+  <p class="el-body-9bcz-sub">간편하게 온라인 예약하거나 전화 한 통으로 예약할 수 있습니다. 마포 셔츠룸 예약 방법 및 추천 팁을 확인해 보세요.</p>
+  <div class="bx-img-m45j-2">
+    <div class="bx-foot-1u4q">
+      <span class="bx-foot-1u4q-icon">📱</span>
+      <h3>온라인 예약</h3>
+      <p>실시간 채팅 또는 예약 폼을 통해 24시간 접수 가능합니다. 마포 셔츠룸 초행자 추천 업소는 온라인 예약 시 추가 안내를 제공합니다.</p>
+    </div>
+    <div class="bx-foot-1u4q">
+      <span class="bx-foot-1u4q-icon">📞</span>
+      <h3>전화 예약</h3>
+      <p>직접 통화로 원하는 시간과 코스를 문의하세요. 마포 셔츠룸 여성 직원 추천이나 시스템 문의도 가능합니다.</p>
+    </div>
+  </div>
+  <div style="margin-top: 28px;">
+    <h3 style="font-size:1.2rem; font-weight:700; margin-bottom:12px;">마포 셔츠룸 초행자 추천 업소 안내</h3>
+    <div class="el-side-6w27-box">
+      <p>“처음 가는 곳이라 긴장했는데 직원분이 친절하게 안내해 주셨어요. 시스템도 간단하고 가격도 부담 없었습니다.”</p>
+      <div class="el-side-6w27-author">- 마포구 직장인 김**</div>
+    </div>
+    <div class="el-side-6w27-box">
+      <p>“단체로 방문했는데 코스 구성이 알차서 좋았어요. 마포 셔츠룸 단체 추천 코스 강력 추천합니다.”</p>
+      <div class="el-side-6w27-author">- 회식 후기 박**</div>
+    </div>
+  </div>
+</section>
 
-    <section class="cx-ico-8gwd" id="contact">
-        <div class="cx-ico-rxi1">
-            <div class="pg-grid-vv8k">
-                <h2>지금 바로 문의하세요</h2>
-                <p>마포 셔츠룸 추천, 가격, 예약까지 한 번에 해결</p>
-                <a href="tel:01012345678">📞 전화 연결하기</a>
-            </div>
-            <div class="sf-foot-5o67-area">
-                <div class="sf-foot-5o67-card">
-                    <h3>네이버 지도</h3>
-                    <p>마포 셔츠룸 위치 좋은 곳을 네이버 지도로 확인하세요.</p>
-                    <a href="https://map.naver.com/v5/search/마포%20셔츠룸" target="_blank" rel="noopener noreferrer">네이버 지도 보기</a>
-                </div>
-                <div class="sf-foot-5o67-card">
-                    <h3>구글 맵</h3>
-                    <p>마포 지역 셔츠룸을 구글 맵에서 찾아보세요.</p>
-                    <a href="https://www.google.com/maps/search/마포+셔츠룸" target="_blank" rel="noopener noreferrer">구글 맵 보기</a>
-                </div>
-            </div>
-        </div>
-    
+<div class="cx-txt-y4f4"></div>
+
+<section class="el-body-9bcz">
+  <h2 class="el-body-9bcz-title">마포 셔츠룸 여성 직원 추천 및 시스템</h2>
+  <p class="el-body-9bcz-sub">전문적인 서비스와 체계적인 시스템을 갖춘 곳을 소개합니다. 마포 셔츠룸 시스템 좋은 곳 추천 리스트입니다.</p>
+  <div class="bx-img-m45j-3">
+    <div class="bx-foot-1u4q">
+      <span class="bx-foot-1u4q-icon">👩‍💼</span>
+      <h3>여성 직원 추천</h3>
+      <p>마포 셔츠룸 여성 직원 추천 업소는 전문 교육을 받은 스태프가 상주합니다. 서비스 만족도가 높습니다.</p>
+    </div>
+    <div class="bx-foot-1u4q">
+      <span class="bx-foot-1u4q-icon">⚙️</span>
+      <h3>시스템 좋은 곳</h3>
+      <p>입장부터 퇴장까지 원활한 동선과 디지털 시스템을 갖춘 곳이 늘고 있습니다. 예약 확인이 실시간으로 가능합니다.</p>
+    </div>
+    <div class="bx-foot-1u4q">
+      <span class="bx-foot-1u4q-icon">💎</span>
+      <h3>가성비 좋은 곳</h3>
+      <p>마포 셔츠룸 가성비 좋은 곳 추천은 기본 코스 대비 서비스 퀄리티가 우수한 업소들입니다.</p>
+    </div>
+  </div>
+</section>
+
+<div class="cx-txt-y4f4"></div>
+
+<section class="el-body-9bcz" id="faq">
+  <h2 class="el-body-9bcz-title">자주 묻는 질문 (FAQ)</h2>
+  <p class="el-body-9bcz-sub">마포 셔츠룸 추천과 관련해 궁금한 점을 정리했습니다.</p>
+  <div class="bx-box-71wk-item">
+    <h3>마포 셔츠룸 예약은 꼭 해야 하나요?</h3>
+    <p>네, 원활한 이용을 위해 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기가 길어질 수 있습니다. 마포 셔츠룸 예약 방법 및 추천 팁을 참고해 미리 연락 주시면 좋습니다.</p>
+  </div>
+  <div class="bx-box-71wk-item">
+    <h3>초행자도 부담 없이 이용할 수 있나요?</h3>
+    <p>물론입니다. 마포 셔츠룸 초행자 추천 업소는 첫 방문 고객을 위한 상세 안내와 친절한 응대를 제공합니다. 시스템을 모르더라도 직원이 하나씩 알려드립니다.</p>
+  </div>
+  <div class="bx-box-71wk-item">
+    <h3>단체 이용 시 할인이 적용되나요?</h3>
+    <p>대부분의 업소에서 4인 이상 단체 할인 코스를 운영합니다. 마포 셔츠룸 단체 추천 코스는 인원수에 따라 맞춤형으로 제공되며 사전 문의 시 더 자세한 안내를 받을 수 있습니다.</p>
+  </div>
+  <div class="bx-box-71wk-item">
+    <h3>가격은 어느 정도인가요?</h3>
+    <p>기본 코스 기준 10만원부터 프리미엄 코스 30만원까지 다양합니다. 마포 셔츠룸 가격 비교 추천 페이지에서 업소별 차이를 확인해 보세요.</p>
+  </div>
+</section>
+
+<div class="cx-txt-y4f4"></div>
+
+<section class="el-body-9bcz" id="contact">
+  <h2 class="el-body-9bcz-title">오시는 길 및 문의</h2>
+  <p class="el-body-9bcz-sub">마포 셔츠룸 추천 업소의 위치와 연락처를 확인하세요. 네이버 지도와 구글 맵에서 길찾기가 가능합니다.</p>
+  <div class="sf-grid-dq7x-links">
+    <a href="https://map.naver.com/v5/search/%EB%A7%88%ED%8F%AC%20%EC%85%94%EC%B8%A0%EB%A3%B8" target="_blank" rel="noopener noreferrer">📍 네이버 지도</a>
+    <a href="https://www.google.com/maps/search/%EB%A7%88%ED%8F%AC+%EC%85%94%EC%B8%A0%EB%A3%B8" target="_blank" rel="noopener noreferrer">📍 구글 맵</a>
+    <a href="tel:010-0000-0000">📞 010-0000-0000</a>
+  </div>
+  <div style="margin-top: 32px; background: #eef2ff; border-radius: 20px; padding: 28px; text-align: center;">
+    <p style="font-size: 1.1rem; font-weight: 600; color: #1e293b;">마포 셔츠룸 추천, 지금 바로 문의하세요</p>
+    <p style="color: #475569; margin: 8px 0;">주소: 서울특별시 마포구 (마포역 도보 5분)</p>
+    <a href="tel:010-0000-0000" style="display: inline-block; background: #4f46e5; color: white; padding: 12px 32px; border-radius: 50px; text-decoration: none; font-weight: 600; margin-top: 12px;">전화 연결</a>
+  </div>
+
 <div class="seo-visual-divider" role="separator" aria-label="마포 셔츠룸 추천 セクション区切り" style="margin:16px 0"><svg viewBox="0 0 1200 120" style="width:100%;height:60px"><path d="M0,40 C150,80 300,20 500,40 C700,60 850,20 950,35 C1050,50 1150,70 1200,60 L1200,120 L0,120Z" fill="#1a1a2e" opacity="0.12"/></svg></div>
 </section>
 
-    <footer>
-        <div class="cx-ico-rxi1">
-            <div class="bx-box-wt74-inner">
-                <div class="bx-box-wt74-info">
-                    <h4>마포 셔츠룸 추천</h4>
-                    <p>주소: 서울특별시 마포구</p>
-                    <p>전화: <a href="tel:01012345678">010-1234-5678</a></p>
-                    <p>운영시간: 14:00 ~ 04:00</p>
-                </div>
-                <div class="bx-box-wt74-info">
-                    <p>마포 셔츠룸 추천 정보는 실제 방문자 리뷰와 업소 제공 정보를 바탕으로 합니다.</p>
-                </div>
-            </div>
-            <div class="sf-box-u5bj">
-                &copy; 2025 마포 셔츠룸 추천. All rights reserved.
-            </div>
-        </div>
-    </footer>
+<footer class="pg-item-wee1">
+  <div class="pg-item-wee1-inner">
+    <h4>마포 셔츠룸 추천</h4>
+    <p>서울특별시 마포구 | 전화: <a href="tel:010-0000-0000">010-0000-0000</a></p>
+    <p>운영 시간: 매일 14:00 ~ 02:00</p>
+    <div class="el-main-uz9n">
+      <p>© 2025 마포 셔츠룸 추천. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 
-    <script type="application/ld+json">
+<script defer>
+document.addEventListener('DOMContentLoaded', function() {
+  var hamburger = document.getElementById('random-hamburger');
+  var menu = document.getElementById('random-nav-menu');
+  if (hamburger && menu) {
+    hamburger.addEventListener('click', function() {
+      menu.classList.toggle('active');
+    });
+    document.querySelectorAll('.pg-foot-rvmf-links a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        menu.classList.remove('active');
+      });
+    });
+  }
+});
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.example.com" },
+    { "@type": "ListItem", "position": 2, "name": "마포 셔츠룸 추천", "item": "https://www.example.com/mapo-shirtsroom" }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "마포 마포 셔츠룸 추천",
+  "telephone": "010-0000-0000",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "마포",
+    "addressRegion": "서울",
+    "addressCountry": "KR"
+  },
+  "url": "https://www.example.com/mapo-shirtsroom"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "마포 셔츠룸 추천",
-        "telephone": "010-1234-5678",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "마포",
-            "addressRegion": "서울",
-            "addressCountry": "KR"
-        },
-        "url": "https://www.example.com/mapo-shirts-room"
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "마포 셔츠룸 예약은 꼭 해야 하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "네, 원활한 이용을 위해 사전 예약을 권장합니다. 특히 주말이나 저녁 시간대는 예약 없이 방문 시 대기가 길어질 수 있습니다."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "마포 셔츠룸 1인 비용은 얼마인가요?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "마포 셔츠룸 1인 비용은 보통 5만 원에서 10만 원 사이이며, 시간대와 패키지에 따라 차이가 있습니다."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "마포 셔츠룸 예약 방법이 궁금해요.",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "마포 셔츠룸 예약 방법은 전화 예약을 기본으로 하며, 일부 업소는 온라인 예약 시스템을 운영합니다."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "마포 셔츠룸 할인 이벤트는 자주 하나요?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "마포 셔츠룸 할인 이벤트는 신규 오픈, 시즌, 연말 등 주기적으로 진행됩니다."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
+      "@type": "Question",
+      "name": "초행자도 부담 없이 이용할 수 있나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "물론입니다. 마포 셔츠룸 초행자 추천 업소는 첫 방문 고객을 위한 상세 안내와 친절한 응대를 제공합니다."
+      }
+    },
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.example.com" },
-            { "@type": "ListItem", "position": 2, "name": "마포 셔츠룸 추천", "item": "https://www.example.com/mapo-shirts-room" }
-        ]
+      "@type": "Question",
+      "name": "단체 이용 시 할인이 적용되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "대부분의 업소에서 4인 이상 단체 할인 코스를 운영합니다. 마포 셔츠룸 단체 추천 코스는 인원수에 따라 맞춤형으로 제공됩니다."
+      }
     }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "마포 셔츠룸 추천",
-        "url": "https://www.example.com/mapo-shirts-room",
-        "logo": "https://www.example.com/logo.png",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "010-1234-5678",
-            "contactType": "customer service"
-        }
-    }
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const hamburger = document.querySelector('.ui-main-4k7x');
-            const nav = document.querySelector('nav');
-            hamburger.addEventListener('click', function() {
-                nav.classList.toggle('cx-txt-62ai-open');
-            });
-            // close nav on link click mobile
-            nav.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', function() {
-                    if (window.innerWidth <= 768) {
-                        nav.classList.remove('cx-txt-62ai-open');
-                    }
-                });
-            });
-        });
-    </script>
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "마포 셔츠룸 추천",
+  "telephone": "010-0000-0000",
+  "url": "https://www.example.com",
+  "logo": "https://www.example.com/logo.png"
+}
+</script>
+
 </body>
 </html>
