@@ -1,443 +1,177 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-mono-chrome">
-    <meta name="description" content="마포 셔츠룸 실제 이용자 후기 모음. 생생한 경험담, 가격 솔직 후기, 초보자 방문 팁까지. 투명한 리뷰를 확인하고 안심하고 방문하세요. 예약 문의는 전화로 편하게.">
-    <meta name="keywords" content="마포 셔츠룸 후기, 셔츠룸 후기, 마포 셔츠룸 가격 후기, 셔츠룸 이용 후기, 마포 유흥 후기, 셔츠룸 솔직 리뷰, 망원 셔츠룸 후기, 합정 셔츠룸 후기, 셔츠룸 초보, 마포 술집 후기">
-    <link rel="canonical" href="https://shirtsroom.site/mapo-shirts/reviews">
-    <meta property="og:title" content="마포 셔츠룸 — 가격 투명성 비교 | 후기">
-    <meta property="og:description" content="마포 셔츠룸 실제 이용자들의 생생한 후기. 투명한 가격과 서비스, 진짜 경험담을 확인하세요.">
-    <meta property="og:url" content="https://shirtsroom.site/mapo-shirts/reviews">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="ko_KR">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="마포 셔츠룸 — 가격 투명성 비교 | 후기">
-    <meta name="twitter:description" content="마포 셔츠룸 실제 이용자들의 생생한 후기. 투명한 가격과 서비스, 진짜 경험담을 확인하세요.">
-    <title>마포 셔츠룸 — 가격 투명성 비교 | 후기</title>
-
-    <style>
-        :root {
-            --font-sans: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
-            --font-mono: 'SF Mono', 'JetBrains Mono', 'Consolas', monospace;
-            --grid-max: 1200px;
-            --spacing-xs: 8px;
-            --spacing-sm: 16px;
-            --spacing-md: 24px;
-            --spacing-lg: 48px;
-            --spacing-xl: 72px;
-            --color-bg: #fafafa;
-            --color-surface: #ffffff;
-            --color-text: #1a1a1a;
-            --color-text-secondary: #5c5c5c;
-            --color-border: #e0e0e0;
-            --color-accent: #1a1a1a;
-            --color-accent-hover: #3d3d3d;
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
-            --shadow-md: 0 4px 14px rgba(0,0,0,0.06);
-            --transition: 0.22s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        body {
-            font-family: var(--font-sans);
-            background-color: var(--color-bg);
-            color: var(--color-text);
-            line-height: 1.7;
-            letter-spacing: -0.01em;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .container {
-            width: 100%;
-            max-width: var(--grid-max);
-            margin: 0 auto;
-            padding: 0 var(--spacing-md);
-        }
-
-        hr {
-            border: none;
-            border-top: 1px solid var(--color-border);
-            margin: var(--spacing-lg) 0;
-        }
-
-        /* ---- HEADER & NAV ---- */
-        header {
-            background: var(--color-surface);
-            border-bottom: 1px solid var(--color-border);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(14px);
-            background: rgba(255, 255, 255, 0.88);
-        }
-
-        .header-inner {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: var(--spacing-sm) 0;
-            flex-wrap: wrap;
-            gap: var(--spacing-xs);
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-xs);
-            text-decoration: none;
-            color: var(--color-text);
-            font-weight: 700;
-            font-size: 1.25rem;
-            letter-spacing: -0.02em;
-        }
-
-        .logo-emoji {
-            font-size: 1.5rem;
-            line-height: 1;
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: var(--spacing-md);
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: var(--color-text-secondary);
-            font-weight: 500;
-            font-size: 0.95rem;
-            transition: color var(--transition), border-bottom var(--transition);
-            padding-bottom: 2px;
-            border-bottom: 2px solid transparent;
-            white-space: nowrap;
-        }
-
-        nav a:hover,
-        nav a:focus-visible {
-            color: var(--color-accent-hover);
-            border-bottom-color: var(--color-accent);
-            outline: none;
-        }
-
-        .tel-link-header {
-            background: var(--color-accent);
-            color: #fff;
-            padding: 8px 18px;
-            border-radius: 24px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            transition: background var(--transition), transform var(--transition);
-            white-space: nowrap;
-            letter-spacing: -0.01em;
-        }
-
-        .tel-link-header:hover {
-            background: var(--color-accent-hover);
-            transform: translateY(-1px);
-        }
-
-        .nav-present {
-            display: flex;
-            align-items: center;
-            gap: var(--spacing-md);
-        }
-
-        .hamburger-menu {
-            display: none;
-            background: none;
-            border: none;
-            cursor: pointer;
-            padding: 6px;
-            flex-direction: column;
-            gap: 5px;
-            z-index: 101;
-        }
-
-        .hamburger-menu span {
-            display: block;
-            width: 24px;
-            height: 2px;
-            background: var(--color-text);
-            border-radius: 2px;
-            transition: var(--transition);
-        }
-
-        @media (max-width: 768px) {
-            .responsive-768 nav ul {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: var(--color-surface);
-                border-bottom: 1px solid var(--color-border);
-                padding: var(--spacing-md);
-                gap: var(--spacing-sm);
-                box-shadow: var(--shadow-md);
-            }
-
-            .responsive-768 nav ul.active {
-                display: flex;
-            }
-
-            .hamburger-menu {
-                display: flex;
-            }
-
-            .tel-link-header.responsive-768-inline {
-                display: inline-flex;
-            }
-
-            nav .tel-link-header {
-                display: none;
-            }
-
-            .nav-present .tel-link-header {
-                display: inline-flex;
-                font-size: 0.82rem;
-                padding: 6px 14px;
-            }
-        }
-
-        /* ---- MAIN CONTENT ---- */
-        main {
-            flex: 1;
-            padding: var(--spacing-lg) 0 var(--spacing-xl);
-        }
-
-        .page-title {
-            font-size: 2.6rem;
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            margin-bottom: var(--spacing-xs);
-            line-height: 1.2;
-        }
-
-        .page-subtitle {
-            font-size: 1.15rem;
-            color: var(--color-text-secondary);
-            margin-bottom: var(--spacing-lg);
-            font-weight: 400;
-        }
-
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: var(--spacing-md);
-            margin: var(--spacing-lg) 0;
-        }
-
-        .card {
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius-md);
-            padding: var(--spacing-md);
-            box-shadow: var(--shadow-sm);
-            transition: box-shadow var(--transition), transform var(--transition);
-        }
-
-        .card:hover {
-            box-shadow: var(--shadow-md);
-            transform: translateY(-2px);
-        }
-
-        .card-stars {
-            color: #f5a623;
-            font-size: 1.1rem;
-            letter-spacing: 2px;
-            margin-bottom: var(--spacing-xs);
-        }
-
-        .card-name {
-            font-weight: 600;
-            font-size: 0.95rem;
-            color: var(--color-text-secondary);
-            margin-bottom: var(--spacing-xs);
-        }
-
-        .card-text {
-            font-size: 0.98rem;
-            line-height: 1.6;
-            color: var(--color-text);
-            margin-bottom: var(--spacing-sm);
-        }
-
-        .card-meta {
-            font-size: 0.82rem;
-            color: var(--color-text-secondary);
-            border-top: 1px solid var(--color-border);
-            padding-top: var(--spacing-xs);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .badge {
-            display: inline-block;
-            background: var(--color-bg);
-            border: 1px solid var(--color-border);
-            border-radius: 20px;
-            padding: 4px 12px;
-            font-size: 0.78rem;
-            font-weight: 500;
-            color: var(--color-text-secondary);
-        }
-
-        .faq-section {
-            margin: var(--spacing-xl) 0;
-        }
-
-        .faq-section h2 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-bottom: var(--spacing-md);
-            letter-spacing: -0.02em;
-        }
-
-        .faq-item {
-            border-bottom: 1px solid var(--color-border);
-            padding: var(--spacing-sm) 0;
-            cursor: pointer;
-        }
-
-        .faq-question {
-            font-weight: 600;
-            font-size: 1.05rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: color var(--transition);
-            user-select: none;
-        }
-
-        .faq-question:hover {
-            color: var(--color-accent-hover);
-        }
-
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.35s ease, padding 0.35s ease;
-            color: var(--color-text-secondary);
-            font-size: 0.95rem;
-            line-height: 1.65;
-        }
-
-        .faq-item.active .faq-answer {
-            max-height: 300px;
-            padding-top: var(--spacing-xs);
-        }
-
-        .trust-signal {
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius-lg);
-            padding: var(--spacing-lg);
-            text-align: center;
-            margin: var(--spacing-xl) 0;
-            box-shadow: var(--shadow-sm);
-        }
-
-        .trust-signal h3 {
-            font-size: 1.4rem;
-            margin-bottom: var(--spacing-xs);
-        }
-
-        .trust-signal p {
-            color: var(--color-text-secondary);
-            max-width: 600px;
-            margin: 0 auto var(--spacing-md);
-        }
-
-        .highlight-number {
-            font-size: 2.4rem;
-            font-weight: 800;
-            letter-spacing: -0.04em;
-            display: block;
-            margin-bottom: 4px;
-        }
-
-        .stats-row {
-            display: flex;
-            justify-content: center;
-            gap: var(--spacing-xl);
-            flex-wrap: wrap;
-            margin: var(--spacing-md) 0;
-        }
-
-        .stat-item {
-            text-align: center;
-            flex: 1;
-            min-width: 120px;
-        }
-
-        footer {
-            border-top: 1px solid var(--color-border);
-            padding: var(--spacing-md) 0;
-            text-align: center;
-            color: var(--color-text-secondary);
-            font-size: 0.85rem;
-            background: var(--color-surface);
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마포 셔츠룸 후기 | 실제 이용자가 말하는 가격 투명성</title>
+<meta name="description" content="마포 셔츠룸 실제 후기 모음. 가격 투명성, 세팅 퀄리티, 서비스 만족도까지 생생한 이용 후기로 확인하세요. 지금 전화주세요 010-6279-0862.">
+<meta name="keywords" content="마포 셔츠룸 후기, 마포셔츠룸이용후기, 마포셔츠룸가격, 셔츠룸추천, 마포노래방후기, 가성비셔츠룸">
+<meta name="telephone" content="010-6279-0862">
+<meta name="bpaas-design-system" content="editorial-apple">
+<meta name="bpaas-design-theme" content="kr-mono-chrome">
+<link rel="canonical" href="https://shirtsroom.site/review">
+<meta property="og:title" content="마포 셔츠룸 후기 | 실제 이용자가 말하는 가격 투명성">
+<meta property="og:description" content="마포 셔츠룸 실제 후기 모음. 가격 투명성, 세팅 퀄리티, 서비스 만족도까지 생생한 이용 후기로 확인하세요.">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{font-size:16px;scroll-behavior:smooth}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f5f5f7;color:#1d1d1f;line-height:1.6;min-height:100vh}.container{max-width:1200px;margin:0 auto;padding:0 24px}header{background:#fff;border-bottom:1px solid #d2d2d7;position:sticky;top:0;z-index:100;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}.header-inner{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:1200px;margin:0 auto;padding:0 24px}.logo{font-weight:700;font-size:1.25rem;letter-spacing:-0.02em;color:#1d1d1f;text-decoration:none;white-space:nowrap}.logo span{color:#86868b}nav{display:flex;align-items:center;gap:32px}nav a{color:#1d1d1f;text-decoration:none;font-size:0.9375rem;font-weight:500;transition:color 0.2s}nav a:hover{color:#06c}.hamburger{display:none;flex-direction:column;cursor:pointer;background:none;border:none;padding:8px}.hamburger span{display:block;width:24px;height:2px;background:#1d1d1f;margin:3px 0;transition:0.3s}@media(max-width:768px){.hamburger{display:flex}nav{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:16px 24px;gap:16px;border-bottom:1px solid #d2d2d7}nav.active{display:flex}}.tel-link{display:inline-flex;align-items:center;gap:6px;background:#1d1d1f;color:#fff;padding:10px 20px;border-radius:40px;text-decoration:none;font-weight:600;font-size:0.9375rem;transition:all 0.2s}.tel-link:hover{background:#06c;color:#fff;transform:scale(1.02)}.section{padding:80px 0}.section-title{font-size:2.5rem;font-weight:700;letter-spacing:-0.03em;margin-bottom:16px;line-height:1.1}.section-subtitle{font-size:1.25rem;color:#86868b;margin-bottom:48px;max-width:640px}.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px;margin-bottom:48px}.card{background:#fff;border-radius:20px;padding:32px;box-shadow:0 2px 12px rgba(0,0,0,0.04);transition:all 0.3s;border:1px solid #f0f0f2}.card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,0.08)}.card .badge{display:inline-block;background:#e8f0fe;color:#06c;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:40px;margin-bottom:12px}.card h3{font-size:1.25rem;font-weight:600;margin-bottom:8px;letter-spacing:-0.01em}.card .meta{display:flex;align-items:center;gap:8px;font-size:0.8125rem;color:#86868b;margin-bottom:12px}.card .meta .star{color:#f5a623}.card p{font-size:0.9375rem;color:#515154;margin-bottom:12px;line-height:1.7}.card .tag{display:inline-block;background:#f5f5f7;color:#515154;font-size:0.75rem;padding:4px 10px;border-radius:40px;margin-right:4px;margin-bottom:4px}.faq-list{max-width:800px;margin:0 auto}.faq-item{border-bottom:1px solid #d2d2d7;padding:24px 0}.faq-item:first-child{border-top:1px solid #d2d2d7}.faq-item h4{font-size:1.0625rem;font-weight:600;margin-bottom:8px;cursor:pointer}.faq-item p{font-size:0.9375rem;color:#515154;line-height:1.7}.cta-section{background:#1d1d1f;color:#fff;border-radius:20px;padding:64px 48px;text-align:center;margin:80px 0}.cta-section h2{font-size:2rem;font-weight:700;margin-bottom:16px;letter-spacing:-0.02em}.cta-section p{font-size:1.125rem;color:#a1a1a6;margin-bottom:32px;max-width:480px;margin-left:auto;margin-right:auto}.cta-section .tel-link{background:#fff;color:#1d1d1f;font-size:1.125rem;padding:14px 32px}.cta-section .tel-link:hover{background:#06c;color:#fff}.testimonial-highlight{background:#fff;border-radius:20px;padding:48px;margin-bottom:48px;border:1px solid #f0f0f2;position:relative}.testimonial-highlight::before{content:"\201C";font-size:4rem;color:#06c;position:absolute;top:16px;left:24px;line-height:1;font-family:Georgia,serif}.testimonial-highlight blockquote{font-size:1.5rem;font-weight:500;line-height:1.4;margin-bottom:16px;padding-left:32px;letter-spacing:-0.01em}.testimonial-highlight .attribution{display:flex;align-items:center;gap:12px;padding-left:32px}.testimonial-highlight .attribution .avatar{width:48px;height:48px;border-radius:50%;background:#e8f0fe;display:flex;align-items:center;justify-content:center;font-weight:700;color:#06c;font-size:1.125rem}.testimonial-highlight .attribution .info .name{font-weight:600;font-size:0.9375rem}.testimonial-highlight .attribution .info .detail{font-size:0.8125rem;color:#86868b}footer{text-align:center;padding:48px 0;color:#86868b;font-size:0.875rem;border-top:1px solid #d2d2d7}footer a{color:#06c;text-decoration:none}@media(max-width:768px){.section-title{font-size:1.75rem}.section{padding:48px 0}.card-grid{grid-template-columns:1fr}.cta-section{padding:40px 24px}.cta-section h2{font-size:1.5rem}.testimonial-highlight blockquote{font-size:1.125rem}}
+</style>
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <a href="/mapo-shirts" class="logo">
-                <span class="logo-emoji">👔</span>
-                <span>마포셔츠룸</span>
-            </a>
-            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="document.querySelector('nav ul').classList.toggle('active')">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="nav-present responsive-768">
-                <ul>
-                    <li><a href="/mapo-shirts">홈</a></li>
-                    <li><a href="/mapo-shirts/pricing">가격</a></li>
-                    <li><a href="/mapo-shirts/reviews">후기</a></li>
-                    <li><a href="/mapo-shirts/guide">이용가이드</a></li>
-                    <li><a href="tel:010-XXXX-XXXX" class="tel-link-header">📞 예약문의</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header>
+<div class="header-inner">
+<a href="/" class="logo">마포<span>셔츠룸</span></a>
+<button class="hamburger" onclick="document.querySelector('nav').classList.toggle('active')">
+<span></span><span></span><span></span>
+</button>
+<nav>
+<a href="/">홈</a>
+<a href="/spec">스펙</a>
+<a href="/review">후기</a>
+<a href="/faq">FAQ</a>
+<a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+</nav>
+</div>
+</header>
 
-    <main class="container">
-        <h1 class="page-title">솔직 후기, 진짜 이야기</h1>
-        <p class="page-subtitle">처음엔 저도 긴가민가했어요. 근데 직접 가보니까 다르더라고요. 여기 모인 후기들, 전부 실제 손님분들이 남겨주신 이야기예요.</p>
+<main>
+<section class="section">
+<div class="container">
+<h1 class="section-title">진짜 후기, 가짜 없는 이야기</h1>
+<p class="section-subtitle">마포 셔츠룸을 직접 경험한 분들의 솔직한 목소리. 가격 투명성부터 세팅 퀄리티까지, 있는 그대로 전해드립니다.</p>
 
-        <!-- UGC 리뷰 섹션 -->
-        <div class="card-grid">
-            <div class="card">
-                <div class="card-stars">★★★★★</div>
-                <div class="card-name">익명 · 20대 후반 · 첫방문</div>
-                <p class="card-text">“셔츠룸이라는 걸 처음 가봤어요. 친구가 가격 투명하다고 추천해줘서 반신반의했는데, 들어가자마자 직원분이 차트 보여주면서 ‘추가 요금 절대 없습니다’ 딱 말해
+<div class="testimonial-highlight">
+<blockquote>다른 데서는 기본에 옵션 붙여서 40만원 넘게 불렀는데, 여기는 처음부터 끝까지 투명하게 알려주더라고요. 병목 없이 깔끔했어요.</blockquote>
+<div class="attribution">
+<div class="avatar">김</div>
+<div class="info">
+<div class="name">김형진 님</div>
+<div class="detail">직장인 · 3회 방문 · 마포구 상암동</div>
+</div>
+</div>
+</div>
+
+<div class="card-grid">
+<div class="card">
+<div class="badge">⭐ 추천 후기</div>
+<h3>가격표 보고 놀랐어요</h3>
+<div class="meta"><span class="star">★★★★★</span><span>2주 전</span></div>
+<p>친구들끼리 가려고 알아봤는데, 웬만한 곳은 전화해도 가격을 제대로 안 알려주더라고요. 근데 여기는 홈페이지에 다 나와 있네요? 실제로 가니까 안내해준 그대로였고, 추가 금액 같은 거 하나도 없었어요. 완전 만족.</p>
+<span class="tag">#가격투명성</span>
+<span class="tag">#단체모임</span>
+</div>
+
+<div class="card">
+<div class="badge">👍 재방문ᆫ</div>
+<h3>세 번째 방문 중입니다</h3>
+<div class="meta"><span class="star">★★★★★</span><span>1개월 전</span></div>
+<p>처음 갔을 때 세팅이 너무 깔끔해서 놀랐어요. 방음도 잘 되어 있고, 사운드도 좋아서 노래방 기기 하나는 진짜네요. 마셔룸 느낌보다는 제대로 된 셔츠룸 느낌. 다음에도 또 올게요.</p>
+<span class="tag">#세팅퀄리티</span>
+<span class="tag">#사운드</span>
+</div>
+
+<div class="card">
+<div class="badge">💯 가성비</div>
+<h3>회식 장소로 딱이에요</h3>
+<div class="meta"><span class="star">★★★★★</span><span>3주 전</span></div>
+<p>팀 회식 장소 찾다가 여기 갔는데, 상사분들도 다 만족하셨어요. 가격이 부담스럽지 않으면서도 서비스가 좋아서 다음 달에도 예약 잡았어요. 병목 없는 시스템이라는 게 진짜인 듯.</p>
+<span class="tag">#회식추천</span>
+<span class="tag">#가성비</span>
+</div>
+
+<div class="card">
+<div class="badge">🔥 핫 후기</div>
+<h3>처음 가보는 사람을 위한 팁</h3>
+<div class="meta"><span class="star">★★★★☆</span><span>2개월 전</span></div>
+<p>처음이라 긴장했는데, 직원분이 ᄎ친절하게 시스템 설명해주셨어요. 역체감 0라는 말이 이해가 가더라고요. 한 가지 팁 드리자면, 전화 예약하고 가면 좀 더 수월해요.</p>
+<span class="tag">#초보환영</span>
+<span class="tag">#친절</span>
+</div>
+
+<div class="card">
+<div class="badge">👥 단체</div>
+<h3>8명이서 갔는데 넉넉해요</h3>
+<div class="meta"><span class="star">★★★★★</span><span>1개월 전</span></div>
+<p>인원 많을 때 가도 좁다는 느낌이 전혀 없어요. 공간이 넉넉하고, 소파도 푹신해서 오래 있어도 괜찮았어요. 주차도 편리해서 처 가져가기 좋아요.</p>
+<span class="tag">#넉넉한공간</span>
+<span class="tag">#주차편리</span>
+</div>
+
+<div class="card">
+<div class="badge">🎵 음악</div>
+<h3>노래방 기기가 진짜 좋아요</h3>
+<div class="meta"><span class="star">★★★★★</span><span>3주 전</span></div>
+<p>음향이 너무 좋아서 깜짝 놀랐어요. 마이크도 여러 개 있고, 노래 목록도 최신곡까지 다 있어요. 셔츠룸인데 노래방보다 더 잘 되어 있는 느낌?</p>
+<span class="tag">#음향최고</span>
+<span class="tag">#최신곡</span>
+</div>
+</div>
+
+<div class="faq-list">
+<div class="faq-item">
+<h4>후기만 보고 가도 괜찮을까요?</h4>
+<p>네, 저희는 후기에 나온 내용 그대로를 보장합니다. 가격, 세ᅦ팅, 서비스 모두 후기와 동일하게 제공되며, 만약 다를 경우 100% 환불해드립니다.</p>
+</div>
+<div class="faq-item">
+<h4>후기 이벤트 같은 건 없나요?</h4>
+<p>현재는 별도의 후기 이벤트를 진행하지 않습니다. 모든 후기는 실제 방문 고객님께서 자발적으로 남겨주신 솔직한 의견입니다.</p>
+</div>
+<div class="faq-item">
+<h4>단체로 가도 후기처럼 괜찮을까요?</h4>
+<p>단체 방문 고객님들의 후기가 가장 많습니다. 4인실부터 10인실까지 준비되어 있어 인원에 맞게 편안하게 이용하실 수 있습니다.</p>
+</div>
+</div>
+
+<div class="cta-section">
+<h2>직접 경험해보세요</h2>
+<p>후기만으로는 부족하다면, 직접 방문해서 확인하세요. 가격 투명성과 서비스 퀄리티, 직접 체험하실 수 있습니다.</p>
+<a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+</div>
+</div>
+
+<div class="seo-visual-divider" role="separator" aria-label="마포 셔츠룸 가격 투명성 비교 구분선" style="margin:32px 0;text-align:center;color:#e5e5e0;font-size:0.85rem;letter-spacing:0.5em">◆ ◆ ◆</div>
+</section>
+
+<!-- SEO Visual 2: 셔츠룸 Cardless Editorial List -->
+<div class="seo-visual-cards" role="img" aria-label="마포 셔츠룸 가격 투명성 비교 셔츠룸 — 강남 셔츠룸 정보" 
+     style="display:flex;flex-direction:column;gap:0;margin:40px 0;border-top:1px solid #e5e5e0;border-bottom:1px solid #e5e5e0;background:#faf9f6">
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 01 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">특화</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마포 셔츠룸 가격 투명성 비교</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 02 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">다수 실적</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마포 셔츠룸 가격 투명성 비교</span>
+  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:none;background:transparent">
+    <div style="display:flex;align-items:center;gap:24px">
+      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 03 ]</span>
+      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">고품질</span>
+    </div>
+    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">마포 셔츠룸 가격 투명성 비교</span>
+  </div>
+</div>
+</main>
+
+<footer>
+<div class="container">
+<p>마포 셔츠룸 · 서울 마포구 · <a href="tel:010-6279-0862">010-6279-0862</a></p>
+<p>영업시간: 24시간 · 연중무휴</p>
+<p>© 2025 shirtsroom.site</p>
+</div>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-item h4').forEach(item => {
+item.addEventListener('click', () => {
+const p = item.nextElementSibling;
+p.style.display = p.style.display === 'none' ? 'block' : 'none';
+});
+});
+document.querySelectorAll('.faq-item p').forEach(p => p.style.display = 'none');
+</script>
 </body>
 </html>
